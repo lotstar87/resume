@@ -1,0 +1,282 @@
+._dialog {
+  z-index: 100;
+}
+
+/* 공통 */
+#kakaoWrap {
+  display: table;
+  table-layout: fixed;
+}
+
+/* /index */
+.list_intro .odometer {
+  position: absolute;
+  font-size: 100px;
+  font-family: 'Kakao Light', '맑은 고딕', 'Malgun Gothic', Apple SD Gothic Neo, '돋움', dotum, sans-serif;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+/* krew Interview */
+.cont_daily .info_daily {
+  text-shadow: 0 0 20px #fff;
+}
+.cont_daily .info_daily.type_white {
+  text-shadow: 0 0 20px #000;
+}
+.cont_daily .info_daily .txt_time {
+  text-shadow: 0 0 1px #fff;
+}
+.cont_daily .info_daily.type_white .txt_time {
+  text-shadow: 0 0 1px #000;
+}
+
+.list_crew .txt_team {
+  letter-spacing: -1px;
+}
+
+/* /inside/* */
+.cont_inside .wrap_slide .cont_slide {
+  height: 600px;
+}
+.cont_inside .wrap_slide .cont_slide .img_thumb {
+  display: inline-block;
+}
+
+/* 지원하기 공고 상세 */
+.board_view .wrap_btn span.link_move {
+  color: #d6d6d6;
+}
+
+.cont_form .box_view .wrap_emph ._input:first-child {
+  margin-top: 0;
+}
+.cont_form .box_view .wrap_emph ._input {
+  margin-top: 6px;
+}
+
+/* 지원서 작성 > 추천인 > 추천인 삭제 버튼*/
+.cont_form .box_etc .wrap_tf .btn_remove {
+  color: #d6d6d6;
+}
+.cont_form .box_etc .wrap_tf.state_done .btn_remove {
+  color: #333;
+}
+
+/* 학력정보 검정고시 */
+._skip_box {
+  width: 474px;
+  height: 48px;
+  float: left;
+  border: 1px solid #eaeaea;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  background-color: #fff;
+}
+
+/* 지원서작성 > 개인정보 동의 */
+.box_privacy .wrap_privacy {
+  height: 147px;
+}
+
+/* 지원하기 > 인제풀 */
+.en .list_job .lab_job {
+  letter-spacing: -1px;
+}
+
+/**/
+.cont_form .btn_reset .btn_add .ico_add {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* 로그아웃 버튼 */
+#kakaoHead .login_info .set_info form input {
+  border: none;
+}
+#kakaoHead .login_info .set_info .link_logout {
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+}
+#kakaoHead .login_info .set_info .link_logout:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.emph_name_txt {
+  display: none;
+  bottom: -31px;
+  right: 0;
+  font-size: 12px;
+  font-family: '돋움', dotum, sans-serif;
+  text-align: right;
+}
+.emph_name_txt .ico_recruit {
+  width: 18px;
+  height: 18px;
+  margin: -1px 9px 0 0;
+}
+.tf_wrong .emph_name_txt {
+  display: block;
+  color: #da2a21;
+}
+.tf_safe .emph_name_txt {
+  display: block;
+  color: #3aa559;
+}
+
+/*
+   (임시) 영문 버전 상단 로고 추가 (삭제 예정)
+*/
+.kakao_head .en_link_kakao {
+  display: block;
+  overflow: hidden;
+  width: 70px;
+  height: 23px;
+  font-size: 18px;
+  color: #fff;
+  background-position: 0 0;
+}
+.head_type2 .en_link_kakao {
+  color: #1e1e1e;
+  background-position: -120px 0;
+}
+.head_type3 .en_link_kakao {
+  color: #1e1e1e;
+  background-position: -120px 0;
+}
+
+/*
+   셀렉트박스 공통
+   크루 인터뷰에서 bg_frame보다 리스트 박스가 뒤에 보이는 현상때문에 추가
+*/
+.list_opt {
+  z-index: 20;
+}
+
+/* 내지원 정보 보기 > 지도보기  */
+.data_map .view_map {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 284px;
+}
+
+/* 처우정보 입력 화면 산정년도 alert 메시지 출력 */
+.cont_form .state_wrong.box_select {
+  border-color: #da2a21;
+  z-index: 20;
+}
+
+.cont_form .state_wrong.box_select #sel_year {
+  color: #da2a21;
+}
+
+.cont_form .state_wrong#salary_box #salary_text {
+  color: #da2a21;
+}
+
+/* 공지사항, 자주하는 질문 */
+li.wrap_nodata {
+  border-bottom: 1px solid #e6e6e6;
+}
+li.wrap_nodata .txt_nodata {
+  padding: 186px 0 184px;
+  font-size: 20px;
+  font-family: 'Kakao Light', '맑은 고딕', 'Malgun Gothic', Apple SD Gothic Neo, '돋움', dotum, sans-serif;
+  text-align: center;
+}
+
+.cursor_hand {
+  cursor: pointer;
+}
+
+/* 나의 이력서 상단 네비게이션 메뉴추가 */
+.resume_delete {
+  padding-left: 15px;
+}
+
+.cont_preview .box_info {
+  text-align: center;
+}
+
+.cont_preview .my_info {
+  padding: 37px 18px 35px;
+  word-break: break-all;
+}
+
+.cont_preview .txt_name {
+  display: block;
+  font-size: 22px;
+  font-weight: normal;
+  color: #000;
+}
+
+.cont_preview .desc_info {
+  padding: 15px 0 4px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #da2a21;
+}
+
+.cont_preview .link_result {
+  font-size: 16px;
+  color: #666;
+}
+
+.cont_preview .link_result .ico_arr {
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  margin: 6px 0 0 4px;
+  border: 0 none;
+  background-position: -120px -100px;
+}
+
+.cont_preview .more_link {
+  padding-top: 4px;
+}
+
+.cont_preview .more_info {
+  margin-top: 15px;
+  padding-top: 14px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.cont_preview .more_info .txt_more {
+  display: block;
+  padding-top: 4px;
+}
+
+.txt_center {
+  text-align: center;
+}
+
+.txt_left {
+  text-align: left;
+}
+
+.info_daily {
+  width: 100%;
+}
+
+.page_white {
+  color: white;
+}
+
+/* 인재풀 > 지원서 작성 */
+.cont_pool .box_etc2 {
+  width: 300px;
+}
+.presentPay_desc {
+  margin-top: 10px;
+}
+.pad-left4 {
+  padding-left: 13px;
+}
+
+/*추가정보 설명 레이어*/
+.hopeId_desc_body {
+  font-size: 15px;
+  line-height: 30px;
+}
